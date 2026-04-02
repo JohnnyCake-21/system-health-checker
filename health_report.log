@@ -1,0 +1,123 @@
+========================================
+ System Health Report — 2026-04-01 20:58:04
+========================================
+
+--- CPU Load ---
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+
+--- Memory Usage ---
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       813Mi        14Gi       3.5Mi       248Mi        14Gi
+Swap:          4.0Gi          0B       4.0Gi
+
+--- Disk Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+none            7.8G     0  7.8G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            7.8G  4.0K  7.8G   1% /mnt/wsl
+drivers         944G  368G  576G  39% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.6G  955G   1% /
+none            7.8G   76K  7.8G   1% /mnt/wslg
+none            7.8G     0  7.8G   0% /usr/lib/wsl/lib
+rootfs          7.8G  2.7M  7.8G   1% /init
+none            7.8G  552K  7.8G   1% /run
+none            7.8G     0  7.8G   0% /run/lock
+none            7.8G     0  7.8G   0% /run/shm
+none            7.8G   76K  7.8G   1% /mnt/wslg/versions.txt
+none            7.8G   76K  7.8G   1% /mnt/wslg/doc
+C:\             944G  368G  576G  39% /mnt/c
+D:\             1.9T  806G  1.1T  44% /mnt/d
+tmpfs           1.6G   20K  1.6G   1% /run/user/1000
+
+--- Top 5 Processes by CPU ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+johnj       3091  0.7  0.8 22951624 136136 pts/2 Sl+  20:50   0:03 /home/johnj/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node --dns-result-order=ipv4first /home/johnj/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+johnj       3027  0.1  0.7 11845656 117956 pts/2 Sl+  20:50   0:00 /home/johnj/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node /home/johnj/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=3416165033-1675247293-3480391095-3351705732 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+johnj       3041  0.0  0.3 1020128 60196 pts/3   Ssl+ 20:50   0:00 /home/johnj/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 42931 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+root           1  0.0  0.0  21968 12096 ?        Ss   20:29   0:00 /sbin/init
+johnj       3065  0.0  0.3 1262844 59440 pts/2   Sl+  20:50   0:00 /home/johnj/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node /home/johnj/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/bootstrap-fork --type=fileWatcher
+
+--- System Uptime ---
+ 20:58:04 up 28 min,  1 user,  load average: 0.06, 0.01, 0.00
+
+========================================
+ System Health Report — 2026-04-01 21:09:46
+========================================
+
+--- CPU Load ---
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+
+--- Memory Usage ---
+total  used  free  shared  buff/cache  available  
+Mem:   16G   861M  15G     3.7M        267M       15G
+Swap:  4.3G  0B    4.3G                           
+
+--- Disk Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+none            7.8G     0  7.8G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            7.8G  4.0K  7.8G   1% /mnt/wsl
+drivers         944G  368G  576G  39% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.6G  955G   1% /
+none            7.8G   76K  7.8G   1% /mnt/wslg
+none            7.8G     0  7.8G   0% /usr/lib/wsl/lib
+rootfs          7.8G  2.7M  7.8G   1% /init
+none            7.8G  556K  7.8G   1% /run
+none            7.8G     0  7.8G   0% /run/lock
+none            7.8G     0  7.8G   0% /run/shm
+none            7.8G   76K  7.8G   1% /mnt/wslg/versions.txt
+none            7.8G   76K  7.8G   1% /mnt/wslg/doc
+C:\             944G  368G  576G  39% /mnt/c
+D:\             1.9T  806G  1.1T  44% /mnt/d
+tmpfs           1.6G   20K  1.6G   1% /run/user/1000
+
+--- Top 5 Processes by CPU ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+johnj       3091  0.6  0.8 22953672 138824 pts/2 Sl+  20:49   0:07 /home/johnj/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node --dns-result-order=ipv4first /home/johnj/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+johnj       3027  0.0  0.7 11845656 118340 pts/2 Sl+  20:49   0:01 /home/johnj/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node /home/johnj/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=3416165033-1675247293-3480391095-3351705732 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+root           1  0.0  0.0  21968 12096 ?        Ss   20:29   0:00 /sbin/init
+johnj       3065  0.0  0.3 1262844 59632 pts/2   Sl+  20:49   0:00 /home/johnj/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node /home/johnj/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/bootstrap-fork --type=fileWatcher
+johnj       3041  0.0  0.3 1020128 60388 pts/3   Ssl+ 20:49   0:00 /home/johnj/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 42931 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+
+--- System Uptime ---
+ 21:09:46 up 40 min,  1 user,  load average: 0.06, 0.03, 0.00
+
+========================================
+ System Health Report — 2026-04-01 21:10:55
+========================================
+
+--- CPU Load ---
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+
+--- Memory Usage ---
+               total        used        free      shared  buff/cache   available
+Mem:            15Gi       821Mi        14Gi       3.5Mi       255Mi        14Gi
+Swap:          4.0Gi          0B       4.0Gi
+
+--- Disk Usage ---
+Filesystem      Size  Used Avail Use% Mounted on
+none            7.8G     0  7.8G   0% /usr/lib/modules/6.6.87.2-microsoft-standard-WSL2
+none            7.8G  4.0K  7.8G   1% /mnt/wsl
+drivers         944G  368G  576G  39% /usr/lib/wsl/drivers
+/dev/sdd       1007G  1.6G  955G   1% /
+none            7.8G   76K  7.8G   1% /mnt/wslg
+none            7.8G     0  7.8G   0% /usr/lib/wsl/lib
+rootfs          7.8G  2.7M  7.8G   1% /init
+none            7.8G  556K  7.8G   1% /run
+none            7.8G     0  7.8G   0% /run/lock
+none            7.8G     0  7.8G   0% /run/shm
+none            7.8G   76K  7.8G   1% /mnt/wslg/versions.txt
+none            7.8G   76K  7.8G   1% /mnt/wslg/doc
+C:\             944G  368G  576G  39% /mnt/c
+D:\             1.9T  806G  1.1T  44% /mnt/d
+tmpfs           1.6G   20K  1.6G   1% /run/user/1000
+
+--- Top 5 Processes by CPU ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+johnj       3091  0.6  0.8 22953928 139400 pts/2 Sl+  20:49   0:08 /home/johnj/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node --dns-result-order=ipv4first /home/johnj/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/bootstrap-fork --type=extensionHost --transformURIs --useHostProxy=true
+johnj       3027  0.0  0.7 11845656 118340 pts/2 Sl+  20:49   0:01 /home/johnj/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node /home/johnj/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/server-main.js --host=127.0.0.1 --port=0 --connection-token=3416165033-1675247293-3480391095-3351705732 --use-host-proxy --without-browser-env-var --disable-websocket-compression --accept-server-license-terms --telemetry-level=all
+root           1  0.0  0.0  21968 12096 ?        Ss   20:29   0:00 /sbin/init
+johnj       3065  0.0  0.3 1262844 59632 pts/2   Sl+  20:49   0:00 /home/johnj/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node /home/johnj/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/out/bootstrap-fork --type=fileWatcher
+johnj       3041  0.0  0.3 1020128 60388 pts/3   Ssl+ 20:49   0:00 /home/johnj/.vscode-server/bin/cfbea10c5ffb233ea9177d34726e6056e89913dc/node -e const net = require('net'); process.stdin.pause(); const client = net.createConnection({ host: '127.0.0.1', port: 42931 }, () => { client.pipe(process.stdout); process.stdin.pipe(client); }); client.on('close', function (hadError) { console.error(hadError ? 'Remote close with error' : 'Remote close'); process.exit(hadError ? 1 : 0); }); client.on('error', function (err) { process.stderr.write(err && (err.stack || err.message) || String(err)); });
+
+--- System Uptime ---
+ 21:10:55 up 42 min,  1 user,  load average: 0.09, 0.04, 0.00
+
